@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int pinocchio = 10;
-        int karabas = 8;
+        final int PINOCCHIO = 10;
+        final int KARABAS = 8;
 
-        int ostatokYablokYBuratino = pinocchio - karabas;
+        final int OSTATOK_Y_PINOCCHIO = PINOCCHIO - KARABAS;
 
-        System.out.println("Количество яблок у Буратино: " + pinocchio);
-        System.out.println("Количество яблок украденные Карабасом-Барабасом: " + karabas);
-        System.out.println("Количество яблок осталось у Буратино: " + ostatokYablokYBuratino);
+        System.out.println("Кол-во яблок у Буратино: " + PINOCCHIO);
+        System.out.println("Кол-во яблок украденные Карабасом-Барабасом: " + KARABAS);
+        System.out.println("Кол-во яблок осталось у Буратино: " + OSTATOK_Y_PINOCCHIO);
     }
 }
